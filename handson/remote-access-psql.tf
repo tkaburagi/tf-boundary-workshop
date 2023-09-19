@@ -11,8 +11,6 @@
 #    boundary_credential_username_password.postgres.id
 #  ]
 #  egress_worker_filter     = "\"${var.worker_name}\" in \"/tags/type\""
-#  session_max_seconds      = 360
-#  session_connection_limit = 1
 #}
 #
 #resource "boundary_credential_username_password" "postgres" {
