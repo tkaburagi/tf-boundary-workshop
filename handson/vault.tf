@@ -42,6 +42,7 @@
 #    "CREATE ROLE \"{{name}}\" WITH LOGIN PASSWORD '{{password}}' VALID UNTIL '{{expiration}}';",
 #    "GRANT SELECT ON ALL TABLES IN SCHEMA public TO \"{{name}}\";",
 #  ]
+#  default_ttl = 60
 #}
 #
 #resource "vault_database_secret_backend_role" "dev2" {
@@ -51,6 +52,7 @@
 #  creation_statements = [
 #    "CREATE USER '{{name}}'@'%' IDENTIFIED BY '{{password}}';GRANT SELECT ON *.* TO '{{name}}'@'%'",
 #  ]
+#  default_ttl = 60
 #}
 #
 #resource "vault_policy" "read_postgres" {
