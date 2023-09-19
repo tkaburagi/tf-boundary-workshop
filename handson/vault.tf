@@ -47,7 +47,7 @@
 #resource "vault_database_secret_backend_role" "dev2" {
 #  name    = "dev2"
 #  backend = vault_database_secrets_mount.mysql.path
-#  db_name = vault_database_secrets_mount.mysql.mysql[0]
+#  db_name = vault_database_secrets_mount.mysql.mysql[0].name
 #  creation_statements = [
 #    "CREATE USER '{{name}}'@'%' IDENTIFIED BY '{{password}}';GRANT SELECT ON *.* TO '{{name}}'@'%'",
 #  ]
