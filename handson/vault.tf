@@ -52,7 +52,7 @@
 #  creation_statements = [
 #    "CREATE USER '{{name}}'@'%' IDENTIFIED BY '{{password}}';GRANT SELECT ON *.* TO '{{name}}'@'%'",
 #  ]
-#  default_ttl = 60
+#  default_ttl = 600
 #}
 #
 #resource "vault_policy" "read_postgres" {
