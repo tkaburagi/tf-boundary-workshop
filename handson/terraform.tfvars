@@ -1,0 +1,5 @@
+username = "handson"
+password = ""
+addr = ""
+org_id = ""
+default_pj_id = ""

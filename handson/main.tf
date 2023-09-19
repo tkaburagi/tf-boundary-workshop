@@ -4,5 +4,3 @@ provider "boundary" {
   auth_method_password   = var.password
   scope_id               = var.org_id
 }
-
-provider aws {}
