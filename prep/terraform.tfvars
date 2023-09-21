@@ -1,0 +1,8 @@
+cluster_name = "workshop-cluster"
+admin_user = "admin"
+pet_count = "8"
+ami-version = "ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-*"
+ami-owner = "099720109477"
+region = "ap-northeast-1"
+keypair = "ssh-keypair"
+hcp_pj_id = ""

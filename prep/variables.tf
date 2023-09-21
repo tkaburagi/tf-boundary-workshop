@@ -5,3 +5,4 @@ variable "ami-version" {}
 variable "ami-owner" {}
 variable "region" {}
 variable "keypair" {}
+variable "hcp_pj_id" {}
