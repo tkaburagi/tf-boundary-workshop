@@ -2,6 +2,10 @@
 #
 #variable "user_id" {}
 #
+#output "ec2_ssh_target_id" {
+#value = boundary_target.ssh_aws.id
+#}
+#
 #resource "boundary_target" "ssh_aws" {
 #  name         = "My AWS EC2"
 #  description  = "Access to EC2 instance"
